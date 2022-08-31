@@ -1,4 +1,4 @@
-// pretty sure that this solution is very inefficient
+// after looking at other solutions i think this might be the most efficient? still like O(n * max element) though
 int solution(int[] inputArray) {
     for (int i = 2; i < 1002; i++) {
         for (int j = 0; j < inputArray.length; j++) {
